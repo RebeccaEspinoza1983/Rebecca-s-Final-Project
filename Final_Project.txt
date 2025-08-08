@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rebecca's Reflection Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://media.istockphoto.com/id/1157663282/photo/robot-and-human-hand-touching.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000;
+      transition: text-shadow 0.3s ease-in-out;
+    }
+
+    h1:hover {
+      text-shadow:
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 30px #00ffff;
+    }
+
+    .reflection {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-left: 6px solid #4285f4;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      box-shadow:
+        0 0 10px #4285f4,
+        0 0 20px #4285f4,
+        0 0 30px #4285f4;
+      animation: pulseGlow 3s infinite;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    @keyframes pulseGlow {
+      0% {
+        box-shadow:
+          0 0 10px #4285f4,
+          0 0 20px #4285f4,
+          0 0 30px #4285f4;
+      }
+      50% {
+        box-shadow:
+          0 0 15px #4285f4,
+          0 0 25px #4285f4,
+          0 0 35px #4285f4;
+      }
+      100% {
+        box-shadow:
+          0 0 10px #4285f4,
+          0 0 20px #4285f4,
+          0 0 30px #4285f4;
+      }
+    }
+
+    .reflection h2 {
+      color: #1a73e8;
+      margin-top: 0;
+    }
+
+    .reflection p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .reflection strong {
+      color: #0b5394;
+    }
+
+    .reflection em {
+      color: #d35400;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Rebecca's Reflection Page</h1>
+
+  <div class="reflection">
+    <h2>🧠 Debugging My Mindset</h2>
+    <p>
+      When I first started writing code, I felt like every misplaced semicolon or misspelled tag was a personal attack from the machine.
+      <strong>One wrong input and the whole site would collapse like a house of cards.</strong> But over time, I realized that coding isn’t just about precision—
+      it’s about <em>patience, persistence, and learning to troubleshoot like a true IT professional</em>.
+    </p>
+    <p>
+      What once felt intimidating has become empowering. I’ve started applying what I’ve learned not just in class, but at work and in my personal life.
+      Whether it’s fixing a network hiccup or solving a software glitch, I now approach problems with curiosity instead of fear.
+      <strong>The knowledge I’ve gained has helped me debug more than just websites—it’s helped me debug my mindset.</strong>
+    </p>
+    <p>
+      I no longer reach for the phone to call someone else; I look at the issue and ask, <em>“What can I do to fix this?”</em>
+      That shift in thinking is the real win.
+    </p>
+  </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rebecca's Skills & Growth</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://static.vecteezy.com/system/resources/previews/002/005/484/original/blue-abstract-border-free-vector.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 20px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #4285f4;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #4285f4;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      box-shadow: 0 0 15px #00ffff;
+    }
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .skills {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      box-shadow: 0 0 10px #4285f4, 0 0 20px #4285f4, 0 0 30px #4285f4;
+    }
+
+    .skills h2 {
+      color: #1a73e8;
+      margin-top: 0;
+    }
+
+    .skills ul {
+      font-size: 1.1em;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .skills li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Rebecca's Skills & Growth</h1>
+
+  <nav>
+    <a href="index.html">Reflection</a>
+    <a href="skills.html">Skills & Growth</a>
+  </nav>
+
+  <div class="skills">
+    <h2>💡 Skills I've Developed</h2>
+    <ul>
+      <li>Understanding how the Internet works and its global infrastructure</li>
+      <li>Using web browsers, search engines, and email effectively</li>
+      <li>Setting up and securing home Wi-Fi networks</li>
+      <li>Recognizing and avoiding online threats like phishing and malware</li>
+      <li>Understanding basic Internet protocols like TCP/IP, DNS, and HTTP</li>
+      <li>Writing clean, valid HTML and CSS code for web pages</li>
+      <li>Creating and analyzing network topologies and IP address tables</li>
+      <li>Practicing safe digital habits and managing digital footprints</li>
+      <li>Using cloud services and understanding data storage basics</li>
+      <li>Applying cybersecurity principles including VPNs and encryption</li>
+      <li>Using productivity tools like Excel and PowerPoint for presentations</li>
+      <li>Applying project management tools like Pareto charts and stakeholder grids</li>
+      <li>Exploring emerging technologies like IoT and wireless networks</li>
+    </ul>
+  </div>
+
+</body>
+</html>
